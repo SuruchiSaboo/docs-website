@@ -8,7 +8,7 @@ releaseDate: '2023-07-27'
 
 
 
-![EC2 Metrics](./images/whats-new-07-26-js-errors-inbox.md "EC2 Metrics")
+![EC2 Metrics](./images/ec2_metrics_from_agent.png "EC2 Metrics")
 
 <figcaption>EC2 Metrics.</figcaption>
 
