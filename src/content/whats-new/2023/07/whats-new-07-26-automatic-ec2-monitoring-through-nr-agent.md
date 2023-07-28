@@ -9,8 +9,8 @@ The ec2 quickstart solution provided here is designed for individuals seeking to
 
 After successfully deploying the [cloudformation template](), users will be able to monitor ec2 instances present across multiple regions and AWS Accounts in New Relic. It automates the installation of [New Relic Infrastructure Agent](https://docs.newrelic.com/docs/infrastructure/install-infrastructure-agent/get-started/install-infrastructure-agent/) in existing (before installation of this solution) and new ec2 instances (any instance spinned post installation of this solution). This agent is responsible for sending host metrics to New Relic.  
 
-
-**NewRelic Infrastructure Agent installation Logs**
+ 
+**NewRelic Infrastructure Agent installation Logs post successful deployment**
 
 
 ![NewRelic Infrastructure Agent installation Logs](./images/nr_agent_installation_logs.png "EC2 Metrics")
