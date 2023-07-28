@@ -4,7 +4,7 @@ summary: 'The CloudFormation template provided here automates deployment of New 
 releaseDate: '2023-07-27' 
 
 ---
-After successfully deplopying this template user will be able to monitor ec2 instances present across multiple regions and AWS Accounts in New Relic. It automates the installation of New Relic Infrastructure Agent in exisiting(before installation of this solution) and new ec2 instances(any instance spinned post installation of this solution). 
+After successfully deploying this template, users will be able to monitor ec2 instances present across multiple regions and AWS Accounts in New Relic. It automates the installation of New Relic Infrastructure Agent in existing(before installation of this solution) and new ec2 instances(any instance spinned post installation of this solution). 
 
 
 
