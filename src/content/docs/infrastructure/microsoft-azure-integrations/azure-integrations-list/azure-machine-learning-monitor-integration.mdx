@@ -194,15 +194,8 @@ The following table lists the metrics available for the Microsoft.MachineLearnin
       <td>
         	Used disk space in megabytes
       </td>
-    </tr> <tr>
-      <td>
-        `DiskReadMegabytes`
-      </td>
-
-      <td>
-        	Data read from disk in megabytes
-      </td>
-    </tr> <tr>
+    </tr>
+<tr>
       <td>
         `DiskWriteMegabytes`
       </td>
@@ -210,7 +203,8 @@ The following table lists the metrics available for the Microsoft.MachineLearnin
       <td>
         	Data written into disk in megabytes
       </td>
-    </tr> <tr>
+    </tr> 
+<tr>
       <td>
         `Errors`
       </td>
@@ -594,7 +588,7 @@ The following table lists the metrics available for the Microsoft.MachineLearnin
 </table>
 
 
-The following table lists the metrics available for the Microsoft.MachineLearningServices/workspaces/onlineEndpoints/deployments and Microsoft.MachineLearningServices/workspaces/onlineEndpoints/deployments resource type.
+The following table lists the metrics available for the Microsoft.MachineLearningServices/workspaces/onlineEndpoints/deployments resource type.
 
 <table>
   <thead>
@@ -682,6 +676,15 @@ The following table lists the metrics available for the Microsoft.MachineLearnin
       Percentage of GPU memory utilization on an instance
       </td>
     </tr>
+<tr>
+      <td>
+        `GpuUtilizationPercentage`
+      </td>
+
+      <td>
+      Percentage of GPU utilization on an instance.
+      </td>
+    </tr>
  <tr>
       <td>
         `RequestLatency_P50`
@@ -725,6 +728,113 @@ The following table lists the metrics available for the Microsoft.MachineLearnin
 
       <td>
        The number of requests sent to online deployment within a minute
+      </td>
+    </tr>
+</tbody>
+</table>
+
+The following table lists the metrics available for the Microsoft.MachineLearningServices/workspaces/onlineEndpoints resource type.
+
+<table>
+  <thead>
+    <tr>
+      <th style={{ width: "300px" }}>
+        Metric
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        `ConnectionsActive`
+      </td>
+      <td>
+       The total number of concurrent TCP connections active from clients
+      </td>
+    </tr>
+<tr>
+      <td>
+        `DataCollectionErrorsPerMinute`
+      </td>
+      <td>
+       The number of data collection events dropped per minute
+      </td>
+    </tr>
+<tr>
+      <td>
+        `DataCollectionEventsPerMinute`
+      </td>
+      <td>
+       The number of data collection events processed per minute
+      </td>
+    </tr>
+<tr>
+      <td>
+        `NetworkBytes`
+      </td>
+      <td>
+       The bytes per second served for the endpoint
+      </td>
+    </tr>
+<tr>
+      <td>
+        `NewConnectionsPerSecond`
+      </td>
+      <td>
+       The average number of new TCP connections per second established from clients
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestLatency`
+      </td>
+      <td>
+       The average complete interval of time taken for a request to be responded in milliseconds
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestLatency_P50`
+      </td>
+      <td>
+       The average P50 request latency aggregated by all request latency values collected over the selected time period
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestLatency_P90`
+      </td>
+      <td>
+       The average P90 request latency aggregated by all request latency values collected over the selected time period
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestLatency_P95`
+      </td>
+      <td>
+       The average P95 request latency aggregated by all request latency values collected over the selected time period
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestLatency_P99`
+      </td>
+      <td>
+       The average P99 request latency aggregated by all request latency values collected over the selected time period
+      </td>
+    </tr>
+<tr>
+      <td>
+        `RequestsPerMinute`
+      </td>
+      <td>
+       The number of requests sent to online endpoint within a minute
       </td>
     </tr>
 </tbody>
